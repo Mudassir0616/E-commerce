@@ -1,0 +1,297 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffff;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+/* .header{
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+}
+.header img{
+  width: 110px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 18px;
+  object-fit: contain;
+}
+.header-input{
+  display: flex;
+  flex: 1;
+}
+.srch-inp{
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  background-color: whitesmoke;
+} */
+.links{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+   margin: 0 20px;
+  padding: 10px 20px;
+  /* border-radius: 999px;
+  background-color: #cd9042; */
+}
+.registration{
+  border: none;
+  padding: 5px 10px;
+  border-radius: 7px;
+  color: #ffff;
+  background-color: #cd9042;
+  text-decoration: none;
+}
+
+.amazon-logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-img{
+  width: 1200px;
+  object-fit: contain;
+  mask-image: linear-gradient(to bottom,rgba(0,0,0,1), rgba(0,0,0,0));
+  max-width: 1500px;
+  
+}
+.render-products{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  object-fit: contain;
+  margin: 60px 0;
+}
+
+.card{
+  width: auto;
+  height: auto;
+  margin: 20px 15px;
+  border-radius: 12px;
+  border: none;
+  box-Shadow: 1px 7px 10px gray;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+.content{
+  width: 90%;
+  margin: 20px 0;
+  line-height: 23px;
+}
+.product-rating{
+  display: flex;
+}
+.product-rating p{
+  color: #cd9042;
+  font-size: 20px;
+  padding: 0 3px;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.oneProduct{
+  width: 80vw;
+  display: flex;
+  margin-top: 60px;
+}
+.one-container{
+  display: flex;
+  justify-content: space-between;
+
+}
+.images{
+  margin: 20px 0;
+}
+.images:hover{
+  border: 1px solid #e77600;
+  box-shadow: 0 0 3px 2px rgb(228 121 17 / 60%);
+}
+
+.one-img{
+  margin: 10px 30px;
+}
+.one-det{
+  
+  margin: 70px 60px;
+}
+.btn{
+  background-color: darkorange;
+  border: none;
+  cursor: pointer;
+  padding: 9px 27px;
+  font-weight: 700;
+  font-size: 20px;
+  color: wheat;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+.btn:hover{
+  transform: scale(1.1,1.1);
+}
+.btn-disabled{
+  background-color: gray;
+  border: none;
+  cursor: pointer;
+  padding: 9px 27px;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  border-radius: 6px;
+}
+.render-cart{
+  display: flex;
+  justify-content: center;
+  /* align-items: center;
+  flex-direction: column; */
+}
+.no-item{
+  margin: 3em;
+}
+.cart{
+  width: 850px;
+  
+}
+.pricing{
+  height: 200px;
+  padding: 0 10px;
+  padding-top: 30px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.chck-btn{
+  padding: 6px 50px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #FEBD69;
+  color: white;
+  border: none;
+  border-radius: 20px;
+}
+.home-icon{
+  color: #cd9042;
+}
+.cart-items{
+  display: flex;
+  max-width: 85vw;
+  padding: 50px 0;  
+}
+.home-link{
+  position: absolute;
+  left: 20px;
+}
+.item-images{
+  padding-right: 57px;
+}
+.item-details h2,p,h5,h4,button{
+  font-family: cursive;
+  
+}
+.item-details p{
+  font-size: 16px;
+  font-weight: 500;
+  color: gray;
+  text-align: start;
+}
+.item-btn{
+  background-color: whitesmoke;
+  color: red;
+  border: none;
+  border-radius: 16px;
+  padding: 7px 17px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+.item-btn:hover{
+  color: white;
+  background-color: red;
+}
+
+.srch-products{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 30px 0;
+}
+.srch-product-details{
+  text-align: center;
+  padding: 10px 200px;
+  border-radius: 6px;
+  border: 1px solid black;
+}
+
+
+/*--------------------- Resistration ------------------*/
+
+.switch{
+  background-color: none;
+  color: #347C98;
+  border: none;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sign{
+  color: darkGray;
+  font-size: 23px;
+  font-weight: 500;
+}
+.form input{
+  width: 270px;
+  padding: 9px 0;
+  padding-left: 10px;
+  border-radius: 7px;
+  font-size: 15px;
+}
+.submit{
+  background-color:#FF9900;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 7px 0;
+  border-radius: 10px;
+  font-size: 19px;
+  
+}
+
+/* -------------- Delivery ----------------*/
+
+.delivery{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 60px 0;
+}
+.delivery-form{
+  line-height: 60px;
+  margin-top: 30px;
+}
+
+.delivery-form input{
+  border: 2px solid #FEBD69;
+}
+.delivery-form button{
+  width: 100%;
+  padding: 10px 0;
+  background-color: #232F3E;
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
