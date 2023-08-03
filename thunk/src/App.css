@@ -6,6 +6,7 @@
   position: sticky;
   top: 0;
   z-index: 10;
+  padding: 10px;
 }
 /* .header{
   padding: 1rem 0;
@@ -54,10 +55,9 @@
   justify-content: center;
 }
 .home-img{
-  width: 1200px;
+  width: 100%;
   object-fit: contain;
   mask-image: linear-gradient(to bottom,rgba(0,0,0,1), rgba(0,0,0,0));
-  max-width: 1500px;
   
 }
 .render-products{
@@ -69,19 +69,36 @@
 }
 
 .card{
-  width: auto;
-  height: auto;
   margin: 20px 15px;
+  width: 350px;
+  height: 500px;
   border-radius: 12px;
   border: none;
-  box-Shadow: 1px 7px 10px gray;
+  box-Shadow: 1px 1px 7px lightgray;
   display: flex;
-  padding: 20px;
+  padding: 10px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: left;
+  transition: all 0.5s;
 }
+.card:hover{
+  transform: scale(1.05);
+}
+.image {
+  width: 100%; /* Set the width of the image container to fit the card */
+  height: 220px; /* Set the height of the image container as needed */
+   /* Hide any overflowing content (e.g., if the image is larger than the container) */
+}
+
+.image img {
+  width: 100%; /* Set the width of the image to fit the container */
+  height: 100%; /* Set the height of the image to fit the container */
+  object-fit: contain; /* Maintain the aspect ratio and cover the entire container */
+  border-radius: 4px; /* Apply rounded corners to the image */
+}
+
 .content{
   width: 90%;
   margin: 20px 0;

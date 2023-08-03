@@ -53,5 +53,14 @@ router.post('/signUp', async(req,res)=>{
         }  
     })
 
+    router.get('/allUsers',async(req,res)=>{
+        try {
+            const usersData = await Users.find()
+            res.send(usersData)
+        } catch (error) {
+            console.log(error)
+        }
+    })
+
 
 export default router

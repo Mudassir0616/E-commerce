@@ -12,6 +12,10 @@ app.use(cors())
 app.use('/users', userRoutes)
 app.use('/delivery', deliveryRoutes)
 
+app.get('/heroku', (req,res)=>{
+    res.send('hello')
+})
+
 const PORT = process.env.PORT || 5001
 
 const CONNECTION_URL = 'mongodb://vegeta0616:mudassir020616@ac-apjwdak-shard-00-00.fbbk4lp.mongodb.net:27017,ac-apjwdak-shard-00-01.fbbk4lp.mongodb.net:27017,ac-apjwdak-shard-00-02.fbbk4lp.mongodb.net:27017/?ssl=true&replicaSet=atlas-hhxvf2-shard-0&authSource=admin&retryWrites=true&w=majority'
